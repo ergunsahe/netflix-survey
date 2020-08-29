@@ -1,0 +1,119 @@
+h1{
+  align-content: center;
+}
+
+.special-color{
+    color:red;
+}
+.white-color{
+    color:white
+}
+
+body {
+  background-image: url('./images/netflix.jpg');
+  background-repeat: no-repeat;
+  /* background-attachment: fixed;   */
+  background-size: cover;
+  color:white
+}
+#container{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 16px;
+  border: 0px solid black;
+  margin: 5px 60px 5px 60px;
+  background-color:rgba(10,10,10,0.3);
+  background-size: 200%;
+}
+#title{
+  font-size: 50px;
+  font-family: fantasy;
+  /* font-family: "Bowlby One SC", cursive; */
+  font-weight: bolder;
+  margin: 30px 5px 1px 5px;
+  letter-spacing: 5px;
+  padding: 20px 5px 5px 5px;
+  
+}
+#description{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  /* font-family: "Sorts Mill Goudy", sans-serif; */
+  font-size: 21px;
+  font-weight: bolder;
+  margin: 5px 5px 10px 20px;
+}
+#survey-form{
+  border: 0px solid black;
+  margin: 30px ;
+  background-color:rgba(10,10,10,0.9);
+  /* padding: 30px ; */
+  width: 480px;
+  height: 770px;
+  padding: 20px 20px ;
+  
+}
+.box{
+  text-align: left;
+  text-indent: 30px;
+  text-emphasis: 10px;
+
+   
+}
+#name{
+  padding: 20px;
+  margin: 10px 20px 15px 30px ;;
+  width: 380px;
+}
+
+#age{
+  padding: 20px;
+  margin: 10px 10px 15px 30px ;
+  width: 380px;
+}
+
+#email{
+  padding: 20px;
+  margin: 10px 10px 15px 30px ;
+  width: 380px;
+}
+
+#content{
+  padding: 10px;
+  margin: 10px 10px 15px 30px ;
+  width: 340px;
+}
+
+#comments{
+  width: 350px;
+  height: 40px;
+  padding: 20px;
+  margin: 10px 10px 10px 30px;
+}
+#movielist{
+  /* padding: 10px; */
+  margin: 1px 1px 1px 30px; 
+}
+
+#gender{
+  margin: 1px 1px 1px 30px;
+}
+
+#submit{
+  padding: 15px 20px 11px;
+  font-weight: bold;
+  font-size: 15px;
+  /* border-radius: 100px; */
+ /* -moz-border-radius: 100px; */
+ -webkit-border-radius: 100px;
+  border: 0px solid #F36C8C;
+  cursor: pointer;
+  width: 150px;
+  height: 45px;
+  color: white;
+  background-color: red;
+  align-self: center
+}
+#submit:hover{
+  background-color: white;
+  color: red;
+}
+
