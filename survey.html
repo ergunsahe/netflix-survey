@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix Survey</title>
+    <link rel="stylesheet" href="project_1.css">
+    <!-- ZA-en-20191203-popsignuptwoweeks-perspective_alpha_website_small.jpg -->
+
+</head>
+<body>
+  
+  <div id="container" align="center">
+    <h1 id="title"><b><span class="white-color">NET</span><span class="special-color">FLIX</span></b></h1>
+    <p id="description"><b>Thank you for signing up at Netflix.Tell us more about your self</b> </p>
+    <form id="survey-form" action="result.html" >
+      <div class="box">
+        <label for="name">Name <br> <input type="text" name="name" id="name" placeholder="enter your name"></label>
+      </div>
+
+      <div class="box">     
+        <label for="age">Age <br><input type="number" name="age" id="age" placeholder="age"></label>
+      </div> 
+      <div class="box">    
+        <label for="email">Email <br><input type="email" name="email" id="email" placeholder="enter your Email"></label>
+      </div> 
+      <div class="box">      
+         <label for="content">Content type</label><br>
+         <select name="content" id="content"><br>
+          <option value="movie">Movie</option>
+          <option value="series" selected>Series</option>
+         </select>
+      </div> <br>
+
+      <div class="box">
+        <label for="movielist"> Movie type</label><br>
+          <input type="checkbox" name="movielist" value="Comedy" id="movielist">Comedy<br>
+          <input type="checkbox" name="movielist" value="action" id="movielist">Action <br>
+          <input type="checkbox" name="movielist" value="romance" id="movielist" checked>Romance 
+      </div><br>
+      <div class="box">
+          <label for="gender">Gender</label><br>
+            <input type="radio" name="gender" id="gender">Male<br>
+            <input type="radio" name="gender" id="gender">Female<br>
+            <input type="radio" name="gender" id="gender">Other <br>
+      </div><br>
+      <div class="box">
+        <label for="comments">Feed back</label><br>
+        <textarea name="comments" id="comments" cols="30" rows="3" placeholder="Any comments"></textarea><br>
+          
+      </div> <br>
+          <input type="submit" align="center"  id="submit" value="Gönder"><br>
+
+    </form>
+  </div>
+   
+</body>
+</html>
